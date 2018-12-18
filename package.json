@@ -41,6 +41,7 @@
   },
   "scripts": {
     "start": "sh -ac '. .env.dev; react-scripts start'",
+    "start:production": "sh -ac '. .env.${REACT_APP_ENV}; react-scripts start'",
     "build": "sh -ac '. ./.env.${REACT_APP_ENV}; react-scripts build'",
     "build:dev": "REACT_APP_ENV=dev npm run build",
     "build:staging": "REACT_APP_ENV=staging npm run build",

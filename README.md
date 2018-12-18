@@ -27,39 +27,23 @@ yarn
 ## Running locally
 
 ```
-yarn dev
+yarn start
 ```
 
 ## Running in Production
 
 ```
-yarn start
+yarn start:production
 ```
-
-## Creating and running docker
-
-To create a Docker image, use the following command:
-
-    docker build -t durgaprasadbudhwani/blue-macaw-music-app .
-
-It will create a Docker image named `durgaprasadbudhwani/blue-macaw-music-app:latest`.
-
-To run a Docker image locally, use the following command:
-
-    docker run -p 5005:80 --env PORT=80 durgaprasadbudhwani/blue-macaw-music-app .
     
 ## Lint
 
 ```
 # lint code with ESLint
-yarn lint
+yarn lint:js
 
-# try to fix ESLint errors
-yarn lint:fix
-
-# lint and watch for changes
-yarn lint:watch
 ```
+
 
 
     
