@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Blue Macaw Music App",
+  "name": "Blue Macaw Music App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://durgaprasad-budhwani.github.io/blue-macaw-client/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
