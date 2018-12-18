@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/blue-macaw-client/static/js/runtime~main.cb0a9a0a.js"
   },
   {
-    "revision": "fb45fadfcd179c3326ee",
-    "url": "/blue-macaw-client/static/js/main.fb45fadf.chunk.js"
+    "revision": "d773e694cae4af701625",
+    "url": "/blue-macaw-client/static/js/main.d773e694.chunk.js"
   },
   {
     "revision": "bbff906a9b373f33a89d",
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/blue-macaw-client/static/js/1.9e1ad01a.chunk.js"
   },
   {
-    "revision": "fb45fadfcd179c3326ee",
+    "revision": "d773e694cae4af701625",
     "url": "/blue-macaw-client/static/css/main.beeb5bb2.chunk.css"
   },
   {
-    "revision": "5be9b5de1eb1113049bf77591279e225",
+    "revision": "4cba98d858848326f3c2876d731f46fc",
     "url": "/blue-macaw-client/index.html"
   }
 ];
