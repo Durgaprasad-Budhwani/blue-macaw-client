@@ -187,16 +187,16 @@ class TrackInformation extends React.PureComponent<Props, State> {
                         item
                         className={classes.grow}
                     >
-                        <Button>
-                            <FastRewind className={classes.icon} />
-                        </Button>
+                        {/*<Button>*/}
+                            {/*<FastRewind className={classes.icon} />*/}
+                        {/*</Button>*/}
                         <Button onClick={() => this.handleToggle()}>
                             {!isPlaying && <PlayArrow className={classes.play} />}
                             {isPlaying && <Pause className={classes.play} />}
                         </Button>
-                        <Button>
-                            <FastForward className={classes.icon} />
-                        </Button>
+                        {/*<Button>*/}
+                            {/*<FastForward className={classes.icon} />*/}
+                        {/*</Button>*/}
                     </Grid>
                     <Typography className={classes.timing}>
                         {currentTime}

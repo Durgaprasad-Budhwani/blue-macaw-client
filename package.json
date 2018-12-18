@@ -1,6 +1,7 @@
 {
   "name": "blue-macaw-client",
   "version": "0.1.0",
+  "homepage": "http://blue-macaw-app.s3-website.eu-west-2.amazonaws.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/durgaprasad-budhwani/blue-macaw-client.git"
@@ -49,7 +50,7 @@
     "test:coverage": "react-scripts test --env=jsdom --ci --runInBand --coverage --colors",
     "eject": "react-scripts eject",
     "docs": "react-doc-generator src -o DOCUMENTATION.md",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 sync build/ s3://blue-macaw-app --profile durga --delete",
     "format:js": "prettier --config .prettierrc \"src/**/*.js\" --write",
     "lint:js": "eslint --config .eslintrc.json \"src/**/*.js\"",
     "flow": "flow"
