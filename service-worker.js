@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/blue-macaw-client/precache-manifest.4028eac1129dc9b1cab3b7bb948bd0da.js"
+  "/blue-macaw-client/precache-manifest.b5d6f658982f7074526a47a85d6d1ab0.js"
 );
 
 workbox.clientsClaim();
